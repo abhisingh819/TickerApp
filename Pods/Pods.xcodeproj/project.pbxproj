@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3E2671D9B36525D319F0CC324A496D /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */; };
+		5D5AECD5AE084BE215DFA12CF26E6B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6ACBF03EE7C6E787EA9168089B10512F /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2579EC0A85807D45E1F4DBDEBD6E404 /* Pods-tickerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC512E2490DE7463AC5A58FD579B651 /* Pods-tickerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3CC1EE3683BB80E217983E3FDF8EDD3 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */; };
+		C6AFE47DEF595376BC05C29558BDE7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C8DE6CC5BB1B7A5AA80A2C714661807F /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */; };
+		D1A706DDE6E2A4EF4DE6C4637E8A311D /* Pods-tickerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454169CAFBBFAA04F3EED4C68462318A /* Pods-tickerApp-dummy.m */; };
+		E7EBCFCDB85C4BA4FE1B7DAE5E0FCF3B /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */; };
+		EE2B3863C4E2C5D4A4B85572D7F6D0B9 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54559683CF5EBBA5DE11EB4FD3386CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DDE2CB798DD9D7A79BF4F69565F3D;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09605431CE2197EBE54053F8DD99527C /* Pods-tickerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tickerApp.modulemap"; sourceTree = "<group>"; };
+		10CE38F8ACDEAE7BD94DAFBA5E574CC1 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		35B75D02BB246E6B7EABEF61F78891EC /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		3CC512E2490DE7463AC5A58FD579B651 /* Pods-tickerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tickerApp-umbrella.h"; sourceTree = "<group>"; };
+		414899FAB6739EBE587CD9942FBA535F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454169CAFBBFAA04F3EED4C68462318A /* Pods-tickerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tickerApp-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		6E591F7581E6B1D5208792237C49F7BE /* Pods-tickerApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tickerApp-resources.sh"; sourceTree = "<group>"; };
+		722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AC1D03DBC7FD4C655B8E94ADA6F4DD6 /* Pods-tickerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tickerApp-frameworks.sh"; sourceTree = "<group>"; };
+		9DC5AB12D00ADE80C621F91D19421F67 /* Pods-tickerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tickerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		AA2C8F19F636237B07342E9C9CDE4530 /* Pods-tickerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tickerApp.release.xcconfig"; sourceTree = "<group>"; };
+		AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		C01F80A6D435926C0A6A267DAD4CA61E /* Pods-tickerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tickerApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E51FDD7D1AC348BBE139A00E392BD0C5 /* Pods-tickerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tickerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5E944E3B1D60840C47A85FF22C4061F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AABFA0ED56C1C81E4E8D36EE152769 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB84F704369351C9DF8D6974BB105F68 /* Pods_tickerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tickerApp.framework; path = "Pods-tickerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6ADA70490467EB7BFC8F4CC71FDBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5AECD5AE084BE215DFA12CF26E6B76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86B66519A565AE90772CFB5BB1A45B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AFE47DEF595376BC05C29558BDE7AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12713C0E04A065748494E1A30294B4A3 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */,
+				722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */,
+				805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */,
+				AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */,
+				2F8032CF59F581C402F1DD317800A923 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		2F8032CF59F581C402F1DD317800A923 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5E944E3B1D60840C47A85FF22C4061F /* Info.plist */,
+				35B75D02BB246E6B7EABEF61F78891EC /* Starscream.modulemap */,
+				A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */,
+				677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */,
+				10CE38F8ACDEAE7BD94DAFBA5E574CC1 /* Starscream-prefix.pch */,
+				74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		3A5274CF36C1C075639809C1A655B59C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41DD4FDC7501EC76A35677E7F426F0F /* Pods-tickerApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C72CB525208CCF34CAAA5E005CBB052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB84F704369351C9DF8D6974BB105F68 /* Pods_tickerApp.framework */,
+				E6AABFA0ED56C1C81E4E8D36EE152769 /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2F54CB704E1800078ACC2EEBFF040C5 /* Pods */,
+				4C72CB525208CCF34CAAA5E005CBB052 /* Products */,
+				3A5274CF36C1C075639809C1A655B59C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F54CB704E1800078ACC2EEBFF040C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12713C0E04A065748494E1A30294B4A3 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41DD4FDC7501EC76A35677E7F426F0F /* Pods-tickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				414899FAB6739EBE587CD9942FBA535F /* Info.plist */,
+				09605431CE2197EBE54053F8DD99527C /* Pods-tickerApp.modulemap */,
+				E51FDD7D1AC348BBE139A00E392BD0C5 /* Pods-tickerApp-acknowledgements.markdown */,
+				C01F80A6D435926C0A6A267DAD4CA61E /* Pods-tickerApp-acknowledgements.plist */,
+				454169CAFBBFAA04F3EED4C68462318A /* Pods-tickerApp-dummy.m */,
+				9AC1D03DBC7FD4C655B8E94ADA6F4DD6 /* Pods-tickerApp-frameworks.sh */,
+				6E591F7581E6B1D5208792237C49F7BE /* Pods-tickerApp-resources.sh */,
+				3CC512E2490DE7463AC5A58FD579B651 /* Pods-tickerApp-umbrella.h */,
+				9DC5AB12D00ADE80C621F91D19421F67 /* Pods-tickerApp.debug.xcconfig */,
+				AA2C8F19F636237B07342E9C9CDE4530 /* Pods-tickerApp.release.xcconfig */,
+			);
+			name = "Pods-tickerApp";
+			path = "Target Support Files/Pods-tickerApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12771449385C615DF173A7019B6E23B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACBF03EE7C6E787EA9168089B10512F /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C0A4D0F9ABB2B9367B48651D20F87E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2579EC0A85807D45E1F4DBDEBD6E404 /* Pods-tickerApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1278C309A457C5DF649A5318DB959E03 /* Pods-tickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336293440358DBC715F1BDE765449E87 /* Build configuration list for PBXNativeTarget "Pods-tickerApp" */;
+			buildPhases = (
+				47C0A4D0F9ABB2B9367B48651D20F87E /* Headers */,
+				AB1E59057B879C9D23E413D3B10D85A3 /* Sources */,
+				E86B66519A565AE90772CFB5BB1A45B3 /* Frameworks */,
+				5758147F4674EFA7A6E6A7624B4F1221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA763AF18AD9F762B9C70A691034AEDC /* PBXTargetDependency */,
+			);
+			name = "Pods-tickerApp";
+			productName = "Pods-tickerApp";
+			productReference = EB84F704369351C9DF8D6974BB105F68 /* Pods_tickerApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		322DDE2CB798DD9D7A79BF4F69565F3D /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FFD63E1EE333F491F0778E4018572C /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				12771449385C615DF173A7019B6E23B7 /* Headers */,
+				F5F02095080B0B227D758DD32735A926 /* Sources */,
+				5C6ADA70490467EB7BFC8F4CC71FDBC3 /* Frameworks */,
+				396B6A1E95D11CC4A8B492839BA0BA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = E6AABFA0ED56C1C81E4E8D36EE152769 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4C72CB525208CCF34CAAA5E005CBB052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1278C309A457C5DF649A5318DB959E03 /* Pods-tickerApp */,
+				322DDE2CB798DD9D7A79BF4F69565F3D /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396B6A1E95D11CC4A8B492839BA0BA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5758147F4674EFA7A6E6A7624B4F1221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1E59057B879C9D23E413D3B10D85A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A706DDE6E2A4EF4DE6C4637E8A311D /* Pods-tickerApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F02095080B0B227D758DD32735A926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CC1EE3683BB80E217983E3FDF8EDD3 /* Compression.swift in Sources */,
+				EE2B3863C4E2C5D4A4B85572D7F6D0B9 /* SSLClientCertificate.swift in Sources */,
+				C8DE6CC5BB1B7A5AA80A2C714661807F /* SSLSecurity.swift in Sources */,
+				5A3E2671D9B36525D319F0CC324A496D /* Starscream-dummy.m in Sources */,
+				E7EBCFCDB85C4BA4FE1B7DAE5E0FCF3B /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA763AF18AD9F762B9C70A691034AEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 322DDE2CB798DD9D7A79BF4F69565F3D /* Starscream */;
+			targetProxy = 54559683CF5EBBA5DE11EB4FD3386CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81ED168C2606C20598A67BA12BACDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2C8F19F636237B07342E9C9CDE4530 /* Pods-tickerApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tickerApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tickerApp/Pods-tickerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		901449E2B64D3A64683A7A4052B1BF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E69617871145714478176CF436EE58CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F36748D65D88B64CAE0EB56636F938B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC5AB12D00ADE80C621F91D19421F67 /* Pods-tickerApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tickerApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tickerApp/Pods-tickerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336293440358DBC715F1BDE765449E87 /* Build configuration list for PBXNativeTarget "Pods-tickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36748D65D88B64CAE0EB56636F938B0 /* Debug */,
+				81ED168C2606C20598A67BA12BACDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FFD63E1EE333F491F0778E4018572C /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69617871145714478176CF436EE58CD /* Debug */,
+				901449E2B64D3A64683A7A4052B1BF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
